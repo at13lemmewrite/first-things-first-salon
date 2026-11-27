@@ -13,11 +13,12 @@ const MENU = JSON.parse(
   await readFile(path.join(__dirname, "salon-menu.json"), "utf8")
 );
 
+
 const menuText = MENU.map(group =>
   `${group.title}\n${group.items.map(item =>
     `- ${item[0]}: ${item[1]}${item[2] ? ` (${item[2]})` : ""}`
   ).join("\n")}`
-).join("\n\n");
+).join("\n\n").replace(/\*\*/g, "");
 
 const systemInstruction = `You are the friendly customer-service assistant for First Thing's First salon.
 
