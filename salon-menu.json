@@ -1,0 +1,354 @@
+[
+  {
+    "cat": "nails",
+    "title": "Wellness Manicure",
+    "items": [
+      [
+        "Express Manicure",
+        "₹600",
+        "Soak + cleanse + moisturise + nail paint"
+      ],
+      [
+        "Essential Manicure",
+        "₹700",
+        "Soak + cleanse + massage + nail paint"
+      ]
+    ]
+  },
+  {
+    "cat": "nails",
+    "title": "All-time Favourite Manicure",
+    "items": [
+      [
+        "De-tan / Spa Manicure",
+        "₹1,100",
+        "Soak + cleanse + scrub + massage + bleach / de-tan + nail paint"
+      ],
+      [
+        "FTF Signature Manicure",
+        "₹1,999",
+        "Luxury candle mani + candle wax scrub + gel polish + extra massage"
+      ]
+    ]
+  },
+  {
+    "cat": "nails",
+    "title": "Wellness Pedicure",
+    "items": [
+      [
+        "Express Pedicure",
+        "₹700",
+        "Soak + cleanse + moisturise + nail paint"
+      ],
+      [
+        "Essential Pedicure",
+        "₹800",
+        "Soak + cleanse + massage + nail paint"
+      ]
+    ]
+  },
+  {
+    "cat": "nails",
+    "title": "All-time Favourite Pedicure",
+    "items": [
+      [
+        "De-tan / Spa Pedicure",
+        "₹1,200",
+        "Soak + cleanse + scrub + massage + bleach / de-tan + nail paint"
+      ],
+      [
+        "FTF Signature Pedicure",
+        "₹2,700",
+        "Luxury candle pedi + candle wax scrub + gel polish + 20 mins massage"
+      ]
+    ]
+  },
+  {
+    "cat": "nails",
+    "title": "Manicure & Pedicure Add-ons",
+    "items": [
+      [
+        "Bleach",
+        "₹300"
+      ],
+      [
+        "Premium Bleach",
+        "₹450"
+      ],
+      [
+        "De-tan",
+        "₹500"
+      ],
+      [
+        "Mask",
+        "₹150"
+      ],
+      [
+        "Foot Massage (20 min)",
+        "₹400"
+      ],
+      [
+        "Foot Massage (30 min)",
+        "₹600"
+      ],
+      [
+        "Permanent Extensions with Gel Polish",
+        "₹1,199"
+      ],
+      [
+        "Temporary Extension with Gel Polish",
+        "₹799"
+      ],
+      [
+        "Gel Polish Hands & Feet",
+        "₹799"
+      ],
+      [
+        "Refills / Overlays",
+        "₹999"
+      ],
+      [
+        "Removal",
+        "₹150 / ₹350"
+      ]
+    ]
+  },
+  {
+    "cat": "hair",
+    "title": "Haircuts & Wash",
+    "items": [
+      [
+        "Fringe / Bangs",
+        "₹300"
+      ],
+      [
+        "Express Hair Cut",
+        "₹650"
+      ],
+      [
+        "Creative Hair Cut",
+        "₹800"
+      ],
+      [
+        "Kids Haircut (below 5 years)",
+        "₹650"
+      ],
+      [
+        "Hair Wash + Blast Dry",
+        "₹550"
+      ],
+      [
+        "Classic Hair Wash + Blowdry — Short",
+        "₹550"
+      ],
+      [
+        "Classic Hair Wash + Blowdry — Medium",
+        "₹750++"
+      ],
+      [
+        "Classic Hair Wash + Blowdry — Long",
+        "₹850++"
+      ]
+    ]
+  },
+  {
+    "cat": "hair",
+    "title": "Hair Spa & Styling",
+    "items": [
+      [
+        "Premium Hair Spa — Short / Medium / Long",
+        "₹900 / ₹1,200 / ₹1,500"
+      ],
+      [
+        "Luxury Hair Spa — Short / Medium / Long",
+        "₹2,000 / ₹2,500 / ₹3,000"
+      ],
+      [
+        "Head Massage (20 mins)",
+        "₹600"
+      ],
+      [
+        "Ironing — Short / Medium / Long",
+        "₹600 / ₹900 / ₹850"
+      ],
+      [
+        "Tongs / Curls / Waves — Short / Medium / Long",
+        "₹700 / ₹900 / ₹1,200"
+      ],
+      [
+        "Tensil",
+        "₹100 pp"
+      ]
+    ]
+  },
+  {
+    "cat": "hair",
+    "title": "Hair Treatments",
+    "items": [
+      [
+        "Hair Botox — Crown / Short / Medium / Long",
+        "₹3,700 / ₹10,500 / ₹11,500 / ₹15,000"
+      ],
+      [
+        "Olaplex / Smart Bond — Crown / Short / Medium / Long",
+        "₹2,000 / ₹2,500 / ₹3,000 / ₹3,500"
+      ],
+      [
+        "Olaplex additive in colour / highlight — Crown / Short / Medium / Long",
+        "— / ₹1,500 / ₹2,000 / ₹2,500"
+      ],
+      [
+        "Nanoplastia",
+        "Please enquire"
+      ],
+      [
+        "Silkbliss",
+        "Please enquire"
+      ]
+    ]
+  },
+  {
+    "cat": "skin",
+    "title": "Skin & Facials",
+    "items": [
+      [
+        "Essential Cleanup",
+        "₹800"
+      ],
+      [
+        "Young Blush — Radiance & Glow",
+        "₹999"
+      ],
+      [
+        "Brightening — Whitening Treatment for All",
+        "₹1,300"
+      ],
+      [
+        "Essential Mineral — Signature Glow / Detox",
+        "₹1,400"
+      ],
+      [
+        "Age Defence — Premature Ageing Signs",
+        "₹1,800"
+      ],
+      [
+        "Pearl Glow Plus+ — Sensitive Skin",
+        "₹2,600"
+      ],
+      [
+        "Gold Facial",
+        "₹3,500"
+      ],
+      [
+        "FTF Signature Clean Up (O3+)",
+        "₹3,000"
+      ],
+      [
+        "FTF Signature Facial (O3+)",
+        "₹3,500"
+      ]
+    ]
+  },
+  {
+    "cat": "grooming",
+    "title": "Threading",
+    "items": [
+      [
+        "Eyebrow",
+        "₹79"
+      ],
+      [
+        "Upper Lip / Lower Lip",
+        "₹79"
+      ],
+      [
+        "Forehead / Chin / Cheeks",
+        "₹80"
+      ],
+      [
+        "Jaw Line",
+        "₹90"
+      ]
+    ]
+  },
+  {
+    "cat": "grooming",
+    "title": "Chocolate Waxing",
+    "items": [
+      [
+        "Under Arms",
+        "₹150"
+      ],
+      [
+        "Half Arms",
+        "₹250"
+      ],
+      [
+        "Full Face / Full Arms / Half Legs",
+        "₹350"
+      ],
+      [
+        "Stomach / Behind / Half Front / Back",
+        "₹400"
+      ],
+      [
+        "Full Legs / Bikini Line",
+        "₹500"
+      ],
+      [
+        "Full Front / Back",
+        "₹550"
+      ],
+      [
+        "Bikini / Brazilian",
+        "₹1,400"
+      ],
+      [
+        "Full Body (without Bikini)",
+        "₹2,500"
+      ]
+    ]
+  },
+  {
+    "cat": "grooming",
+    "title": "Rica Waxing",
+    "items": [
+      [
+        "Half Arms",
+        "₹350"
+      ],
+      [
+        "Full Arms / Half Legs",
+        "₹450"
+      ],
+      [
+        "Under Arms",
+        "₹250"
+      ],
+      [
+        "Stomach / Behind / Half Front / Back",
+        "₹550"
+      ],
+      [
+        "Full Legs / Full Front or Back",
+        "₹750"
+      ],
+      [
+        "Full Body (without Bikini)",
+        "₹3,000"
+      ],
+      [
+        "Upper Lip / Lower Lip / Chin",
+        "₹120"
+      ],
+      [
+        "Full Face",
+        "₹600"
+      ],
+      [
+        "Jawline / Sidelock / Eyebrow",
+        "₹200"
+      ]
+    ]
+  }
+]
