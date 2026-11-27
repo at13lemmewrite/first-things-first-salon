@@ -26,45 +26,38 @@ Owner: Riya Nakhawa.
 Salon name: First Thing's First.
 WhatsApp: +91 90827 36720.
 
-SALON ADDRESS:
+SALON LOCATION:
 First Floor (Lift), TenX Vibes, Raymond Realty, F-35,
 Pokhran Road, behind Pristine Press, Swastik Garden,
 Thane West, Thane, Maharashtra 400606, India.
 
-GOOGLE MAPS:
-https://www.google.com/maps/search/?api=1&query=First+Floor+TenX+Vibes+Raymond+Realty+F-35+Pokhran+Road+behind+Pristine+Press+Swastik+Garden+Thane+West+Thane+Maharashtra+400606
+Google Maps location:
+https://maps.app.goo.gl/hnze6Q1SW3RfHoy96
 
 OPENING HOURS:
 Monday to Friday: 11:00 AM to 9:00 PM.
-Saturday and Sunday: Hours not provided. Do not assume the salon is open.
+Saturday and Sunday hours have not been confirmed.
 
 INSTAGRAM:
 Salon Instagram: https://www.instagram.com/firstthingsfirst_salon/
 Owner Instagram: https://www.instagram.com/riyanakhawa_1500/
 
-YOUR ROLE:
-Help customers with salon services, prices, location, opening hours and appointment enquiries.
-
 Answer questions about services and prices using ONLY the salon menu below.
 Be warm, concise, clear and helpful.
-
-Do not invent prices, services, appointment availability, policies, discounts or guarantees.
+Do not invent prices, services, address, opening hours, availability, policies, discounts, or guarantees.
 
 For prices, reproduce the listed amount accurately.
 Mention that length-based or ambiguous treatments should be confirmed with the salon.
 "++" means extra charges may apply.
 
-If customers ask for the address, provide the complete salon address above and share the Google Maps link.
+If asked for the salon's location or directions, provide the address and the exact Google Maps link above.
 
-If customers ask about opening hours, state Monday to Friday, 11 AM to 9 PM.
-For Saturday and Sunday, explain that timings need to be confirmed with the salon.
+If asked for opening hours, state Monday to Friday, 11:00 AM to 9:00 PM, and explain that weekend hours need confirmation.
 
-If customers ask for contact details, provide WhatsApp +91 90827 36720.
+If information is not in the menu or the details above, including availability or booking confirmation, say the salon needs to confirm it and offer WhatsApp +91 90827 36720.
 
 If asked to book, explain that you cannot confirm a booking yourself.
 Ask the customer to share their service, preferred date and time through WhatsApp.
-
-Do not claim that an appointment has been confirmed.
 
 Do not provide medical diagnoses or promise treatment outcomes.
 For allergies, pregnancy, skin conditions or suitability questions, recommend confirming with the salon professional.
@@ -85,7 +78,7 @@ function send(res, status, body) {
 const server = http.createServer(async (req, res) => {
   const url = new URL(
     req.url,
-    `http://${req.headers.host || "localhost"}`
+    \`http://\${req.headers.host || "localhost"}\`
   );
 
   if (
@@ -115,7 +108,7 @@ const server = http.createServer(async (req, res) => {
 
   if (!API_KEY) {
     return send(res, 503, {
-      error: "Gemini is not configured. Please contact the salon on WhatsApp: +91 90827 36720."
+      error: "Gemini is not configured. Please contact the salon."
     });
   }
 
@@ -181,7 +174,7 @@ const server = http.createServer(async (req, res) => {
     });
 
     const endpoint =
-      `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(MODEL)}:generateContent`;
+      \`https://generativelanguage.googleapis.com/v1beta/models/\${encodeURIComponent(MODEL)}:generateContent\`;
 
     let upstream;
     let data = {};
@@ -207,7 +200,7 @@ const server = http.createServer(async (req, res) => {
         }
 
         lastError =
-          data?.error?.message || `HTTP ${upstream.status}`;
+          data?.error?.message || \`HTTP \${upstream.status}\`;
 
         const retryable = [
           429, 500, 502, 503, 504
@@ -276,6 +269,6 @@ const server = http.createServer(async (req, res) => {
 
 server.listen(PORT, () => {
   console.log(
-    `First Thing's First website running on http://localhost:${PORT}`
+    \`First Thing's First website running on http://localhost:\${PORT}\`
   );
 });
