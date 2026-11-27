@@ -78,7 +78,7 @@ function send(res, status, body) {
 const server = http.createServer(async (req, res) => {
   const url = new URL(
     req.url,
-    \`http://\${req.headers.host || "localhost"}\`
+    `http://${req.headers.host || "localhost"}`
   );
 
   if (
@@ -174,7 +174,7 @@ const server = http.createServer(async (req, res) => {
     });
 
     const endpoint =
-      \`https://generativelanguage.googleapis.com/v1beta/models/\${encodeURIComponent(MODEL)}:generateContent\`;
+      `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(MODEL)}:generateContent`;
 
     let upstream;
     let data = {};
@@ -200,7 +200,7 @@ const server = http.createServer(async (req, res) => {
         }
 
         lastError =
-          data?.error?.message || \`HTTP \${upstream.status}\`;
+          data?.error?.message || `HTTP ${upstream.status}`;
 
         const retryable = [
           429, 500, 502, 503, 504
@@ -269,6 +269,6 @@ const server = http.createServer(async (req, res) => {
 
 server.listen(PORT, () => {
   console.log(
-    \`First Thing's First website running on http://localhost:\${PORT}\`
+    `First Thing's First website running on http://localhost:${PORT}`
   );
 });
